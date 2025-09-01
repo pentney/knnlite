@@ -1,0 +1,6 @@
+# Database dependencies for KNNLite
+psycopg2-binary>=2.9.0
+numpy>=1.20.0
+
+# Optional: For better performance
+# psycopg2>=2.9.0  # Use this instead of psycopg2-binary for production

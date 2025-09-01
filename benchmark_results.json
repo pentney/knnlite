@@ -1,0 +1,250 @@
+{
+  "implementation": "FORTRAN HNSW",
+  "benchmarks": {
+    "model_building": [
+      {
+        "dimension": 2,
+        "data_size": 1000,
+        "avg_build_time_seconds": 0.063348,
+        "build_rate_points_per_second": 15786.0
+      },
+      {
+        "dimension": 2,
+        "data_size": 5000,
+        "avg_build_time_seconds": 0.517872,
+        "build_rate_points_per_second": 9655.0
+      },
+      {
+        "dimension": 2,
+        "data_size": 10000,
+        "avg_build_time_seconds": 2.104927,
+        "build_rate_points_per_second": 4751.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 1000,
+        "avg_build_time_seconds": 0.070829,
+        "build_rate_points_per_second": 14119.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 5000,
+        "avg_build_time_seconds": 0.67642,
+        "build_rate_points_per_second": 7392.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 10000,
+        "avg_build_time_seconds": 2.470246,
+        "build_rate_points_per_second": 4048.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 1000,
+        "avg_build_time_seconds": 0.081526,
+        "build_rate_points_per_second": 12266.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 5000,
+        "avg_build_time_seconds": 1.227132,
+        "build_rate_points_per_second": 4075.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 10000,
+        "avg_build_time_seconds": 3.77101,
+        "build_rate_points_per_second": 2652.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 1000,
+        "avg_build_time_seconds": 0.109973,
+        "build_rate_points_per_second": 9093.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 5000,
+        "avg_build_time_seconds": 1.989131,
+        "build_rate_points_per_second": 2514.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 10000,
+        "avg_build_time_seconds": 8.720798,
+        "build_rate_points_per_second": 1147.0
+      }
+    ],
+    "search_performance": [
+      {
+        "dimension": 2,
+        "data_size": 1000,
+        "avg_search_time_seconds": 0.00237,
+        "search_rate_queries_per_second": 210953.0
+      },
+      {
+        "dimension": 2,
+        "data_size": 5000,
+        "avg_search_time_seconds": 0.012138,
+        "search_rate_queries_per_second": 41192.0
+      },
+      {
+        "dimension": 2,
+        "data_size": 10000,
+        "avg_search_time_seconds": 0.056714,
+        "search_rate_queries_per_second": 8816.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 1000,
+        "avg_search_time_seconds": 0.005514,
+        "search_rate_queries_per_second": 90686.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 5000,
+        "avg_search_time_seconds": 0.028272,
+        "search_rate_queries_per_second": 17685.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 10000,
+        "avg_search_time_seconds": 0.071243,
+        "search_rate_queries_per_second": 7018.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 1000,
+        "avg_search_time_seconds": 0.022451,
+        "search_rate_queries_per_second": 22271.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 5000,
+        "avg_search_time_seconds": 0.110013,
+        "search_rate_queries_per_second": 4545.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 10000,
+        "avg_search_time_seconds": 0.243889,
+        "search_rate_queries_per_second": 2050.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 1000,
+        "avg_search_time_seconds": 0.04217,
+        "search_rate_queries_per_second": 11857.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 5000,
+        "avg_search_time_seconds": 0.201569,
+        "search_rate_queries_per_second": 2481.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 10000,
+        "avg_search_time_seconds": 0.431653,
+        "search_rate_queries_per_second": 1158.0
+      }
+    ],
+    "accuracy": {},
+    "memory_usage": [
+      {
+        "dimension": 2,
+        "data_size": 1000,
+        "estimated_memory_mb": 2.06,
+        "memory_per_point_bytes": 2156.0
+      },
+      {
+        "dimension": 2,
+        "data_size": 5000,
+        "estimated_memory_mb": 10.28,
+        "memory_per_point_bytes": 2156.0
+      },
+      {
+        "dimension": 2,
+        "data_size": 10000,
+        "estimated_memory_mb": 20.56,
+        "memory_per_point_bytes": 2156.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 1000,
+        "estimated_memory_mb": 2.09,
+        "memory_per_point_bytes": 2188.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 5000,
+        "estimated_memory_mb": 10.43,
+        "memory_per_point_bytes": 2188.0
+      },
+      {
+        "dimension": 10,
+        "data_size": 10000,
+        "estimated_memory_mb": 20.87,
+        "memory_per_point_bytes": 2188.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 1000,
+        "estimated_memory_mb": 2.24,
+        "memory_per_point_bytes": 2348.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 5000,
+        "estimated_memory_mb": 11.2,
+        "memory_per_point_bytes": 2348.0
+      },
+      {
+        "dimension": 50,
+        "data_size": 10000,
+        "estimated_memory_mb": 22.39,
+        "memory_per_point_bytes": 2348.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 1000,
+        "estimated_memory_mb": 2.43,
+        "memory_per_point_bytes": 2548.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 5000,
+        "estimated_memory_mb": 12.15,
+        "memory_per_point_bytes": 2548.0
+      },
+      {
+        "dimension": 100,
+        "data_size": 10000,
+        "estimated_memory_mb": 24.3,
+        "memory_per_point_bytes": 2548.0
+      }
+    ]
+  }
+}
+
+================================================================================
+FASTKNN HNSW BENCHMARK SUMMARY
+================================================================================
+
+MODEL BUILDING PERFORMANCE:
+----------------------------------------
+Best build rate: 15,786 points/s
+  (dim=2, size=1000)
+Worst build rate: 1,147 points/s
+  (dim=100, size=10000)
+
+SEARCH PERFORMANCE:
+----------------------------------------
+Best search rate: 210,953 queries/s
+  (dim=2, size=1000)
+Worst search rate: 1,158 queries/s
+  (dim=100, size=10000)
+
+ACCURACY:
+----------------------------------------
+
